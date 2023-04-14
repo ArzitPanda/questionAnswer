@@ -1,0 +1,72 @@
+:root{
+    --main-color:#221a94d8;
+    --main-color:#221a94d8;
+    --white:#ffffff;
+    --dropdown-radius: 50px;
+    --dropdown-radius:50px;
+
+    
+
+}
+
+
+.color{
+    background-color:#cddefa
+}
+
+.text-main-color{
+    color:var(--main-color)
+}
+
+.bg-main-color{
+    background-color: var(--main-color);
+}
+.border-main-color{
+    border-bottom-style:solid;
+    border-width: 4px;
+    border-color: var(--main-color);
+
+}
+.nav-item svg {
+    width: 45px;
+    height: 45px;
+    padding:5px;
+    color: blue;
+
+}
+.search-icon{
+    padding-left: 25px;
+    background: url("search_FILL0_wght400_GRAD0_opsz48.png") no-repeat left;
+    background-size: 20px;
+}
+.profile{
+    width: 45px;
+    height: 45px;
+    padding:7px;
+}
+#button1{
+    border-bottom-left-radius: var(--dropdown-radius);
+    border-top-left-radius: var(--dropdown-radius);
+    color: white;
+}
+#button2{
+    border-bottom-right-radius: var(--dropdown-radius);
+    border-top-right-radius: var(--dropdown-radius);
+    border-left-style: solid;
+    border-left-color: rgb(83, 83, 83);
+    border-width: 1px;
+    color: white;
+}
+#button3{
+    border-bottom-left-radius: var(--dropdown-radius);
+    border-top-left-radius: var(--dropdown-radius);
+    color: white;
+}
+#button4{
+    border-bottom-right-radius: var(--dropdown-radius);
+    border-top-right-radius: var(--dropdown-radius);
+    border-left-style: solid;
+    border-left-color: rgb(83, 83, 83);
+    border-width: 1px;
+    color: white;
+}
